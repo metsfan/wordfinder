@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words_letter_values">
+        <item>a-1</item>
+        <item>b-4</item>
+        <item>c-4</item>
+        <item>d-2</item>
+        <item>e-1</item>
+        <item>f-4</item>
+        <item>g-3</item>
+        <item>h-3</item>
+        <item>i-1</item>
+        <item>j-10</item>
+        <item>k-5</item>
+        <item>l-2</item>
+        <item>m-4</item>
+        <item>n-2</item>
+        <item>o-1</item>
+        <item>p-4</item>
+        <item>q-10</item>
+        <item>r-1</item>
+        <item>s-1</item>
+        <item>t-1</item>
+        <item>u-2</item>
+        <item>v-5</item>
+        <item>w-4</item>
+        <item>x-8</item>
+        <item>y-3</item>
+        <item>z-10</item>
+    </string-array>
+</resources>

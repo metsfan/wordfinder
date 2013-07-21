@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.aeskreis.wordfinder.constraints.LetterPositionConstraintView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/constraint">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Has letter"
+            android:id="@+id/textView" android:layout_gravity="left|center_vertical" />
+    <EditText
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/letter" android:layout_row="0" android:layout_column="1"
+            android:inputType="textCapCharacters" android:maxLength="1" android:layout_gravity="left"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="at position"
+            android:id="@+id/textView1" android:layout_row="0" android:layout_column="2" android:layout_gravity="center_vertical|left"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/position" android:layout_row="0" android:layout_column="3" android:layout_gravity="left"/>
+    <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bonus: "
+            android:id="@+id/textView2" android:layout_row="0" android:layout_column="4" android:layout_gravity="center_vertical|left"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bonus" android:layout_row="0" android:layout_column="5" android:layout_gravity="left"/> -->
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/constraint_close" android:layout_row="0" android:layout_column="6" android:layout_gravity="left"
+            android:text="X" />
+</com.aeskreis.wordfinder.constraints.LetterPositionConstraintView>

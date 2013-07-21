@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="constraint_types">
+        <item>Letter Position</item>
+        <item>Prefix</item>
+        <item>Suffix</item>
+    </string-array>
+</resources>
