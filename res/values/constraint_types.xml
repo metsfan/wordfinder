@@ -4,5 +4,6 @@
         <item>Letter Position</item>
         <item>Prefix</item>
         <item>Suffix</item>
+        <item>Contains</item>
     </string-array>
 </resources>

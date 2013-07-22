@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.AttributeSet;
 import android.widget.*;
-import com.aeskreis.wordfinder.constraints.Constraint;
+import com.aeskreis.wordfinder.constraint.Constraint;
 
 import java.util.ArrayList;
 
@@ -43,7 +43,7 @@ public class ResultsView extends LinearLayout
 
         LinearLayout constraints = (LinearLayout)this.findViewById(R.id.constraints_values);
 
-        ArrayList<Constraint> constraintsList = intent.getParcelableArrayListExtra("constraints");
+        ArrayList<Constraint> constraintsList = intent.getParcelableArrayListExtra("constraint");
         if(constraintsList == null) {
             TextView constraintLabel = new TextView(this.getContext());
             constraintLabel.setText("None");

@@ -31,11 +31,11 @@
     <ignored path="wordfinder.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374333714375" ignored="false" />
-    <file path="/Dummy.txt" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374355350565" ignored="false" />
+    <file path="/Dummy.txt" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374466199721" ignored="false" />
     <file path="/constraint.xml" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374335013974" ignored="false" />
     <file path="/letter_position_choices.xml" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374364718012" ignored="false" />
     <file path="/MainActivity.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374345980268" ignored="false" />
-    <file path="/SearchView.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374364205184" ignored="false" />
+    <file path="/SearchView.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374466263593" ignored="false" />
     <file path="/main.xml" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374360099303" ignored="false" />
     <file path="/ConstraintsView.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374339906508" ignored="false" />
     <file path="/ResultsActivity.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374346030552" ignored="false" />
@@ -46,7 +46,7 @@
     <file path="/ConstraintView.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374352233341" ignored="false" />
     <file path="/Constraint.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374354869563" ignored="false" />
     <file path="/LetterPositionConstraint.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374354266986" ignored="false" />
-    <file path="/supplement.txt" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374340271000" ignored="false" />
+    <file path="/supplement.txt" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374372763403" ignored="false" />
     <file path="/letter_position_constraint.xml" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374364763380" ignored="false" />
     <file path="/LetterPositionConstraintView.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374352246965" ignored="false" />
     <file path="/PrefixConstraintView.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374355593351" ignored="false" />
@@ -56,13 +56,16 @@
     <file path="/PrefixConstraint.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374355151400" ignored="false" />
     <file path="/suffix_constraint.xml" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374355373456" ignored="false" />
     <file path="/word_length_choices.xml" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374359793616" ignored="false" />
-    <file path="/constraint_types.xml" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374360817696" ignored="false" />
+    <file path="/constraint_types.xml" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374466236721" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/aeskreis/wordfinder/BuildConfig.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374370908912" ignored="false" />
     <file path="/strings.xml" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374362053897" ignored="false" />
     <file path="/words_point_values.xml" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374362270814" ignored="false" />
     <file path="/words_letter_values.xml" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374362708954" ignored="false" />
     <file path="/WordPointEvaluator.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374363011417" ignored="false" />
     <file path="/Word.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374364138057" ignored="false" />
+    <file path="/ContainsConstraint.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374466078654" ignored="false" />
+    <file path="/ContainsConstraintView.java" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374466188024" ignored="false" />
+    <file path="/contains_constraint.xml" changelist="a7a786a0-5153-4928-a6b7-032608676842" time="1374466226288" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,61 +126,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ResultsActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/ResultsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SearchView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/SearchView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="8" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.0">
+            <state line="242" column="49" selection-start="8669" selection-end="8669" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#2942#2950#0" expanded="true" />
-                <element signature="e#3349#3369#0" expanded="true" />
-                <element signature="e#6656#6662#0" expanded="true" />
+                <element signature="e#2913#2921#0" expanded="true" />
+                <element signature="e#3320#3340#0" expanded="true" />
+                <element signature="e#6630#6636#0" expanded="true" />
+                <element signature="e#6825#7004#0" expanded="true" />
+                <element signature="e#6993#6994#0" expanded="true" />
+                <element signature="e#7586#8728#0" expanded="true" />
+                <element signature="e#8717#8718#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordsDictionary.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/WordsDictionary.java">
+      <file leaf-file-name="Constraint.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/Constraint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="78" selection-start="2370" selection-end="2370" vertical-scroll-proportion="0.43243244">
+            <state line="17" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.47532895">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstraintView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/ConstraintView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="13" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1919#1930#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#823#1018#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordPointEvaluator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/WordPointEvaluator.java">
+      <file leaf-file-name="ContainsConstraint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/ContainsConstraint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="32" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
+            <state line="48" column="13" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1323#1343#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContainsConstraintView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/ContainsConstraintView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="62" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,38 +187,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="supplement.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/supplement.txt">
+      <file leaf-file-name="contains_constraint.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/contains_constraint.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="15" column="37" selection-start="882" selection-end="882" vertical-scroll-proportion="-5.1">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constraint_types.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/constraint_types.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="22" selection-start="209" selection-end="209" vertical-scroll-proportion="-4.08">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.xml">
+      <file leaf-file-name="prefix_constraint.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/prefix_constraint.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="1175" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LetterPositionConstraint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/LetterPositionConstraint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="4" selection-start="1539" selection-end="1947" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ant.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ant.properties">
+      <file leaf-file-name="PrefixConstraintView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/PrefixConstraintView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="76" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="22" column="4" selection-start="525" selection-end="674" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,12 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/res/values/constraint_types.xml" />
-        <option value="$PROJECT_DIR$/res/layout/results.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/values/words_point_values.xml" />
-        <option value="$PROJECT_DIR$/src/com/aeskreis/wordfinder/WordPointEvaluator.java" />
         <option value="$PROJECT_DIR$/src/com/aeskreis/wordfinder/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/values/words_letter_values.xml" />
         <option value="$PROJECT_DIR$/src/com/aeskreis/wordfinder/Word.java" />
@@ -245,8 +258,14 @@
         <option value="$PROJECT_DIR$/res/values/letter_position_choices.xml" />
         <option value="$PROJECT_DIR$/res/layout/letter_position_constraint.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/aeskreis/wordfinder/SearchView.java" />
         <option value="$PROJECT_DIR$/src/com/aeskreis/wordfinder/WordsDictionary.java" />
+        <option value="$PROJECT_DIR$/assets/supplement.txt" />
+        <option value="$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraints/ContainsConstraintView.java" />
+        <option value="$PROJECT_DIR$/res/layout/contains_constraint.xml" />
+        <option value="$PROJECT_DIR$/res/values/constraint_types.xml" />
+        <option value="$PROJECT_DIR$/src/com/aeskreis/wordfinder/SearchView.java" />
+        <option value="$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraints/ContainsConstraint.java" />
+        <option value="$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/Constraint.java" />
       </list>
     </option>
   </component>
@@ -346,7 +365,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="constraints" />
+              <option name="myItemId" value="constraint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -744,112 +763,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.IdeaIC12/system/compile-server/wordfinder_886231b0/targets/java-production/wordfinder/android/generated_sources/aapt/com/aeskreis/wordfinder/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/words_letter_values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="397" selection-end="397" vertical-scroll-proportion="-3.131579">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/letter_position_choices.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="388" selection-end="388" vertical-scroll-proportion="-9.52">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/prefix_constraint.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/letter_position_constraint.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="120" selection-start="1934" selection-end="1934" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ant.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="76" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/supplement.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/ResultsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/SearchView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="8" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2942#2950#0" expanded="true" />
-            <element signature="e#3349#3369#0" expanded="true" />
-            <element signature="e#6656#6662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/WordPointEvaluator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="32" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
@@ -861,10 +774,134 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/WordsDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="78" selection-start="2370" selection-end="2370" vertical-scroll-proportion="0.43243244">
+        <state line="79" column="78" selection-start="2370" selection-end="2370" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1919#1930#0" expanded="true" />
+            <element signature="e#1918#1929#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/supplement.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="7" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/enable1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3193" column="5" selection-start="32252" selection-end="32252" vertical-scroll-proportion="-11.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/PrefixConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="8" selection-start="599" selection-end="785" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/LetterPositionConstraintView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="4" selection-start="803" selection-end="1329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/PrefixConstraintView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="4" selection-start="525" selection-end="674" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/ContainsConstraintView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="62" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/prefix_constraint.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1175" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/contains_constraint.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="37" selection-start="882" selection-end="882" vertical-scroll-proportion="-5.1">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/constraint_types.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="209" selection-end="209" vertical-scroll-proportion="-4.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/SearchView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="49" selection-start="8669" selection-end="8669" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2913#2921#0" expanded="true" />
+            <element signature="e#3320#3340#0" expanded="true" />
+            <element signature="e#6630#6636#0" expanded="true" />
+            <element signature="e#6825#7004#0" expanded="true" />
+            <element signature="e#6993#6994#0" expanded="true" />
+            <element signature="e#7586#8728#0" expanded="true" />
+            <element signature="e#8717#8718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/LetterPositionConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="4" selection-start="1539" selection-end="1947" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/ContainsConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="13" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1323#1343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/ConstraintView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="13" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#823#1018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aeskreis/wordfinder/constraint/Constraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.47532895">
+          <folding />
         </state>
       </provider>
     </entry>

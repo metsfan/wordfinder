@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<com.aeskreis.wordfinder.constraints.LetterPositionConstraintView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.aeskreis.wordfinder.constraint.LetterPositionConstraintView xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
@@ -40,4 +40,4 @@
             android:layout_height="wrap_content"
             android:id="@+id/constraint_close" android:layout_row="0" android:layout_column="6" android:layout_gravity="left"
             android:text="X" />
-</com.aeskreis.wordfinder.constraints.LetterPositionConstraintView>
+</com.aeskreis.wordfinder.constraint.LetterPositionConstraintView>

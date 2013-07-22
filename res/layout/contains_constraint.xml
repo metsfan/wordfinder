@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<com.aeskreis.wordfinder.constraint.SuffixConstraintView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.aeskreis.wordfinder.constraint.ContainsConstraintView xmlns:android="http://schemas.android.com/apk/res/android"
                                                           android:orientation="vertical"
                                                           android:layout_width="match_parent"
                                                           android:layout_height="match_parent">
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ends with "
+            android:text="Contains string "
             android:id="@+id/textView" android:layout_gravity="left|center_vertical"
             android:layout_row="0" android:layout_column="0" />
     <EditText
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:id="@+id/suffix" android:layout_gravity="left"
+            android:id="@+id/contains" android:layout_gravity="left"
             android:layout_row="0" android:layout_column="1"
             />
     <Button android:layout_width="wrap_content"
@@ -21,4 +21,4 @@
             android:id="@+id/constraint_close" android:layout_gravity="left"
             android:layout_row="0" android:layout_column="2"
             android:text="X" />
-</com.aeskreis.wordfinder.constraint.SuffixConstraintView>
+</com.aeskreis.wordfinder.constraint.ContainsConstraintView>

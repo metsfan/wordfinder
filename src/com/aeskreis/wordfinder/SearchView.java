@@ -10,9 +10,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.*;
-import com.aeskreis.wordfinder.constraints.Constraint;
-import com.aeskreis.wordfinder.constraints.ConstraintView;
-import com.aeskreis.wordfinder.constraints.LetterPositionConstraintView;
+import com.aeskreis.wordfinder.constraint.Constraint;
+import com.aeskreis.wordfinder.constraint.ConstraintView;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -34,6 +33,7 @@ public class SearchView extends LinearLayout
     static final int LETTER_POSITION_CONSTRAINT = 0;
     static final int PREFIX_CONSTRAINT = 1;
     static final int SUFFIX_CONSTRAINT = 2;
+    static final int CONTAINS_CONSTRAINT = 3;
 
     EditText mTiles;
     EditText mBoardLetters;
@@ -171,14 +171,14 @@ public class SearchView extends LinearLayout
 
     private String validate(String tiles, ArrayList<Constraint> constraints)
     {
-        if(tiles.length() < 7) {
+        /*if(tiles.length() < 7) {
             return "You must enter all 7 tiles";
-        }
+        }*/
 
         if(constraints != null) {
             for(Constraint constraint : constraints) {
                 if(!constraint.validate(tiles)) {
-                    return "Your constraints may not contain letters not in your tiles or on the board.";
+                    return "Your constraint may not contain letters not in your tiles or on the board.";
                 }
             }
         }
@@ -205,7 +205,7 @@ public class SearchView extends LinearLayout
 
         intent.putParcelableArrayListExtra("words", sortedWordsList);
         intent.putExtra("tiles", tiles);
-        intent.putParcelableArrayListExtra("constraints", constraints);
+        intent.putParcelableArrayListExtra("constraint", constraints);
 
         context.startActivity(intent);
     }
@@ -231,6 +231,10 @@ public class SearchView extends LinearLayout
 
                     case SUFFIX_CONSTRAINT:
                         resource = R.layout.suffix_constraint;
+                        break;
+
+                    case CONTAINS_CONSTRAINT:
+                        resource = R.layout.contains_constraint;
                         break;
                 }
 

@@ -1,6 +1,6 @@
 package com.aeskreis.wordfinder;
 
-import com.aeskreis.wordfinder.constraints.Constraint;
+import com.aeskreis.wordfinder.constraint.Constraint;
 
 import java.util.ArrayList;
 
